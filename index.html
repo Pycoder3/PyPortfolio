@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بورتفوليو | فريق PyCoders</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- شريط التنقل -->
+    <header>
+        <a href="#" class="logo">PyCoders</a>
+        <nav>
+            <a href="#home">الرئيسية</a>
+            <a href="#about">عن الفريق</a>
+            <a href="#projects">المشاريع</a>
+            <a href="#skills">المهارات</a>
+            <a href="#contact">اتصل بنا</a>
+        </nav>
+    </header>
+
+    <!-- الصفحة الرئيسية -->
+    <section id="home" class="home">
+        <div class="content">
+            <h1>مرحباً، نحن فريق <span>PyCoders</span></h1>
+            <h3>نقدم حلولاً في <span class="typing-text"></span></h3>
+            <p>فريق متكامل يقدم خدمات برمجية وإبداعية عالية الجودة.</p>
+            <div class="social">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+            <a href="#projects" class="btn">مشاهدة أعمالنا</a>
+        </div>
+        <div class="image">
+            <img src="team.jpg" alt="صورة الفريق">
+        </div>
+    </section>
+
+    <!-- قسم عن الفريق -->
+    <section id="about" class="about">
+        <h2 class="heading">عن الفريق</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <h3>نحن <span>PyCoders</span></h3>
+                <p>فريق مكون من أفراد متخصصين في مجالات مختلفة نعمل معاً لتقديم حلول متكاملة:</p>
+                <ul class="team-list">
+                    <li><i class="fas fa-laptop-code"></i> مطور تطبيقات سطح المكتب</li>
+                    <li><i class="fas fa-globe"></i> مطور مواقع وتطبيقات ويب</li>
+                </ul>
+            </div>
+            <div class="about-info">
+                <div class="info-box">
+                    <span>4</span>
+                    <p>أعضاء الفريق</p>
+                </div>
+                <div class="info-box">
+                    <span>50+</span>
+                    <p>مشروع مكتمل</p>
+                </div>
+                <div class="info-box">
+                    <span>20+</span>
+                    <p>عميل راضٍ</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم المشاريع -->
+    <section id="projects" class="projects">
+        <h2 class="heading">مشاريعنا</h2>
+        
+        <!-- فلاتر المشاريع -->
+        <div class="project-filters">
+            <button class="filter-btn active" data-filter="all">الكل</button>
+            <button class="filter-btn" data-filter="web">مواقع ويب</button>
+            <button class="filter-btn" data-filter="desktop">تطبيقات سطح المكتب</button>
+        </div>
+        
+        <div class="projects-container">
+            <!-- مشاريع مواقع ويب -->
+            <div class="project-box" data-category="web">
+                <img src="C:\Users\nour\Desktop\school_system\1.PNG" alt="مشروع ويب 1">
+                <div class="project-layer">
+                    <h4>موقع تهجئة كلمات</h4>
+                    <p></p>موقع متكامل للتدرب على تهجئة الكلمات</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            
+            <!-- مشاريع سطح المكتب -->
+            <div class="project-box" data-category="desktop">
+                <img src="C:\Users\nour\Desktop\school_system\2.PNG" alt="مشروع سطح مكتب 1">
+                <div class="project-layer">
+                    <h4>نظام إدارة مدرسة</h4>
+                    <p>تطبيق سطح مكتب لإدارة المدارس</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            
+
+            
+            <!-- يمكنك إضافة المزيد من المشاريع هنا -->
+        </div>
+        
+        <!-- زر إضافة مشروع جديد -->
+        <div class="add-project">
+            <button class="btn" id="add-project-btn">إضافة مشروع جديد</button>
+        </div>
+    </section>
+
+    <!-- قسم المهارات -->
+    <section id="skills" class="skills">
+        <h2 class="heading">مهاراتنا</h2>
+        <div class="skills-container">
+            <!-- مهارات تطوير الويب -->
+            <div class="skill-category">
+                <h3><i class="fas fa-globe"></i> تطوير الويب</h3>
+                <div class="skill-box">
+                    <h4>HTML/CSS</h4>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 95%"></div>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <h4>JavaScript</h4>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <h4>React</h4>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- مهارات تطوير سطح المكتب -->
+            <div class="skill-category">
+                <h3><i class="fas fa-laptop-code"></i> تطوير سطح المكتب</h3>
+                <div class="skill-box">
+                    <h4>Python</h4>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 95%"></div>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <h4>Java</h4>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%"></div>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <h4>C#</h4>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 75%"></div>
+                    </div>
+                </div>
+            </div>
+            
+
+
+    <!-- قسم اتصل بنا -->
+    <section id="contact" class="contact">
+        <h2 class="heading">اتصل <span>بنا</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="الاسم الكامل" required>
+                <input type="email" placeholder="البريد الإلكتروني" required>
+            </div>
+            <div class="input-box">
+                <input type="tel" placeholder="رقم الهاتف">
+                <input type="text" placeholder="نوع الخدمة المطلوبة">
+            </div>
+            <textarea cols="30" rows="10" placeholder="محتوى الرسالة" required></textarea>
+            <button type="submit" class="btn">إرسال الرسالة</button>
+        </form>
+        <div class="contact-info">
+            <p><i class="fas fa-envelope"></i> pycoders8@gmail.com</p>
+        </div>
+    </section>
+
+    <!-- تذييل الصفحة -->
+    <footer>
+        <p>جميع الحقوق محفوظة &copy; 2023 | PyCoders Team</p>
+        <div class="social">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+    </footer>
+
+    <!-- نموذج إضافة مشروع -->
+    <div class="modal" id="project-modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>إضافة مشروع جديد</h2>
+            <form id="add-project-form">
+                <div class="form-group">
+                    <label for="project-name">اسم المشروع:</label>
+                    <input type="text" id="project-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="project-category">التصنيف:</label>
+                    <select id="project-category" required>
+                        <option value="web">موقع ويب</option>
+                        <option value="desktop">تطبيق سطح مكتب</option>
+                        <option value="presentation">عرض تقديمي</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="project-desc">الوصف:</label>
+                    <textarea id="project-desc" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="project-image">صورة المشروع:</label>
+                    <input type="file" id="project-image" accept="image/*">
+                </div>
+                <div class="form-group">
+                    <label for="project-link">رابط المشروع (اختياري):</label>
+                    <input type="url" id="project-link">
+                </div>
+                <button type="submit" class="btn">إضافة المشروع</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
